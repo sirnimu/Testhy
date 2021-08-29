@@ -1,0 +1,21 @@
+@import-normalize;
+
+@font-face {
+    font-family: 'Rubik';
+    src: local('Rubik'), url(../assets/fonts/Rubik.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: local('Rubik-Bold'), url(../assets/fonts/Rubik-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #2a2b2c;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}

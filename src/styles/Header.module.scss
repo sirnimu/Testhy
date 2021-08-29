@@ -1,0 +1,33 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+
+    img {
+        margin-right: 0.5rem;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;        
+        
+        p {
+            margin: 0;
+            color: #636465;
+            margin-right: 0.5rem;
+            font-size: 12px;
+
+            span {
+                color: white;
+                text-decoration: underline;
+                font-weight: bold;
+            }
+        }
+
+        img {
+            margin-right: 0.5rem;
+        }
+    }
+}
